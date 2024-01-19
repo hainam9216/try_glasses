@@ -11,3 +11,64 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-image: url(./../public/glassesImage/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#header {
+  background-color: rgba(0, 0, 0, 0.288);
+  color: white;
+}
+
+#model-display {
+  padding-top: 2rem;
+}
+
+#model-display img {
+  width: 280px;
+  margin: 0rem 15rem;
+}
+
+#glassDisplay {
+  padding-top: 10rem;
+  margin-bottom: 10rem ;
+}
+#glassDisplay li{
+  list-style: none;
+}
+
+#glassDisplay a {
+  height: auto;
+  margin: auto !important;
+}
+
+#glassDisplay img {
+  object-fit: contain;
+  margin: 1rem !important;
+}
+
+#glassDisplay a {
+  cursor: pointer;
+}
+
+#model-try-on {
+  position: relative;
+}
+
+#model-try-on div {
+  position: absolute;
+  bottom: 80%;
+  right: 93%;
+}
+
+#model-try-on div img {
+  position: absolute;
+  transform: scale(0.5);
+}
